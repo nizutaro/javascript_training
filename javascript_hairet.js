@@ -8,9 +8,9 @@ greet();
 
 
 // 関数の引数にnumber1とnumber2を追加してください
-const add = (number1,number2) => {
+const add = (hoge1,hoge2) => {
   // number1とnumber2を足した値をコンソールに出力してください
-  console.log(number1 + number2);
+  console.log(hoge1 + hoge2);
   
 };
 
@@ -46,6 +46,6 @@ const getMax = (a,b,c) =>{
   return max;
 };
 
-// 「最大値は○○です」と出力してください
-const max = getMax(number1, number2, number3);
+// 「最大値」出力
+const max = getMax(hoge1, hoge2, hoge3);
 console.log(`最大値は${max}です`);
